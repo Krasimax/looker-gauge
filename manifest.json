@@ -1,20 +1,24 @@
 {
-"visualization": {
-"id": "gauge-viz",
-"label": "Custom Gauge",
-"type": "LOCAL",
-"script": "index.html"
-},
-"style": {},
-"data": {
-"mode": "FIXED",
-"fields": [
-{
-"id": "metric",
-"label": "Metric",
-"type": "NUMBER",
-"aggregation": "NONE"
-}
-]
-}
+  "visualization": {
+    "id": "gauge-viz",
+    "label": "Custom Gauge",
+    "type": "LOCAL",
+    "script": "index.html"
+  },
+  "style": {},
+  "data": {
+    "mode": "FIXED",
+    "fields": [
+      {
+        "id": "metric",
+        "label": "Metric",
+        "type": "NUMBER",
+        "aggregation": "NONE"
+      }
+    ]
+  },
+  "theme": {},
+  "config": {
+    "supportsCustomConfig": false
+  }
 }
