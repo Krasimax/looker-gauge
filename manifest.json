@@ -1,20 +1,15 @@
 {
-  "visualization": {
-    "id": "gauge-viz",
-    "label": "Custom Gauge",
-    "type": "LOCAL",
-    "script": "index.html"
-  },
-  "style": {},
-  "data": {
-    "mode": "FIXED",
-    "fields": [
-      {
-        "id": "metric",
-        "label": "Metric",
-        "type": "NUMBER",
-        "aggregation": "NONE"
+  "name": "Custom Gauge Visualization",
+  "organization": "Krasimax",
+  "description": "A custom gauge visualization for Looker Studio.",
+  "components": [
+    {
+      "id": "gauge-viz",
+      "name": "Gauge Visualization",
+      "description": "Displays a gauge based on metric value.",
+      "resource": {
+        "js": "index.js"
       }
-    ]
-  }
+    }
+  ]
 }
