@@ -16,9 +16,5 @@
         "aggregation": "NONE"
       }
     ]
-  },
-  "theme": {},
-  "config": {
-    "supportsCustomConfig": false
   }
 }
